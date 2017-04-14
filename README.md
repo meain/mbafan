@@ -4,6 +4,7 @@ You might have had issues with Linux installation on your Macbook Air that it is
 Well, this provides a sort of solution to that problem by checking the core temp and varying the fan speeds accordingly.
 
 No guarantee, but it should probably work. It won't probably blow up your system at least.
+
 ** If the system still gets hot, please report an issue I'll see if I can help. **
 
 Do keep in mind:
