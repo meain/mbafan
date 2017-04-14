@@ -1,0 +1,6 @@
+cp ./mbafan.py /usr/bin
+cp mbafan.service /lib/systemd/system/
+chmod +x /usr/bin/mbafan.py
+systemctl enable mbafan
+systemctl start mbafan
+echo 'All good. (hopefully)'
