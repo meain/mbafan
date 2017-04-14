@@ -3,4 +3,11 @@ cp mbafan.service /lib/systemd/system/
 chmod +x /usr/bin/mbafan.py
 systemctl enable mbafan
 systemctl start mbafan
-echo 'All good. (hopefully)'
+file='/sys/devices/platform/applesmc.768/fan1_manual'
+state=$(<file)
+if [$state -eq '1']
+then
+    echo 'All good. (hopefully)'
+else
+    echo 'Error, probably restarting it will fix it.'
+fi

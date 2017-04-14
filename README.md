@@ -14,6 +14,13 @@ Do keep in mind:
 My system: `x86_64 Linux 4.10.8-1-ARCH` `Macbook Air7,2`
 
 ## Installation instructions
+
 ```sh
 git clone https://github.com/meain/mbafan.git && cd mbafan && chmod +x install && sudo ./install && cd ..
 ```
+
+If you get an error saying 'Error, probably restarting it will fix it.'. Restart your computer then do
+```sh
+cat /sys/devices/platform/applesmc.768/fan1_manual
+```
+and if the output is is 1 you are good to go
