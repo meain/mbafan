@@ -15,5 +15,5 @@ My system: `x86_64 Linux 4.10.8-1-ARCH` `Macbook Air7,2`
 
 ## Installation instructions
 ```sh
-git clone https://github.com/meain/mbafan.git && cd mbpfan && chmod +x install && ./install.sh && cd ..
+git clone https://github.com/meain/mbafan.git && cd mbafan && chmod +x install && sudo ./install && cd ..
 ```
