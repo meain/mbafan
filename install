@@ -1,3 +1,4 @@
+#!/bin/bash
 cp ./mbafan.py /usr/bin
 cp mbafan.service /lib/systemd/system/
 chmod +x /usr/bin/mbafan.py
